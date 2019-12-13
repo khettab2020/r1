@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tam"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" سيتم شحن حسابك بعد جمع 600 نقطة"
+        android:textColor="#ca1919"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="54dp"/>
+    <Button
+
+       android:id="@+id/tam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تـــم"
+        android:textColor="#ca1919"
+        android:textSize="33dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="140dp"
+       />
+
+
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
